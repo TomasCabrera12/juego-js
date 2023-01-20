@@ -1,13 +1,13 @@
 alert = alert("Bienvenido a Snake Game");
 let IngreseUsuario = prompt("Ingrese su Nick")
 
-// HTML Elements
+// HTML Elementos
 const board = document.getElementById('board');
 const scoreBoard = document.getElementById('scoreBoard');
 const startButton = document.getElementById('start');
 const gameOverSign = document.getElementById('gameOver');
 
-// Game settings
+// configuracion del juego
 const boardSize = 10;
 const gameSpeed = 140;
 const squareTypes = {
@@ -22,7 +22,7 @@ const directions = {
     ArrowLeft: -1,
 };
 
-// Game variables
+// Juego variables
 let snake;
 let score;
 let direction;
